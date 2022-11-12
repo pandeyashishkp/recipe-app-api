@@ -40,13 +40,13 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',            #noqa
-    'django.contrib.sessions.middleware.SessionMiddleware',     #noqa
-    'django.middleware.common.CommonMiddleware',                #noqa
-    'django.middleware.csrf.CsrfViewMiddleware',                #noqa
-    'django.contrib.auth.middleware.AuthenticationMiddleware',  #noqa
-    'django.contrib.messages.middleware.MessageMiddleware',     #noqa
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',   #noqa
+    'django.middleware.security.SecurityMiddleware',            # noqa: E501
+    'django.contrib.sessions.middleware.SessionMiddleware',     # noqa: E501
+    'django.middleware.common.CommonMiddleware',                # noqa: E501
+    'django.middleware.csrf.CsrfViewMiddleware',                # noqa: E501
+    'django.contrib.auth.middleware.AuthenticationMiddleware',  # noqa: E501
+    'django.contrib.messages.middleware.MessageMiddleware',     # noqa: E501
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',   # noqa: E501
 ]
 
 ROOT_URLCONF = 'app.urls'
